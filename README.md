@@ -7,7 +7,7 @@ In a Github Action, download your project and run this action:
 
 ```yaml
       - name: Make Code Badge
-        uses: DeathSy/GHA-LoC-Badge@1.0.0
+        uses: DeathSy/GHA-LoC-Badge@1.0.3
         id: badge
         with:
           debug: true
