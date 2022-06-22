@@ -17,6 +17,7 @@ jobs:
           directory: "./src"
           badge: ./output/badge.svg
           ignore: 'node_modules/|README'
+          patterns: '*.js'
 
       - name: Print the output
         run: |
