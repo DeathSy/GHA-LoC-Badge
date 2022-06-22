@@ -1,4 +1,4 @@
-name: 'Lines of Code Badge'
+name: 'LOC Badge'
 description: 'Generate a badge to display total Lines of Code'
 inputs:
   directory:
