@@ -1,3 +1,4 @@
+this is a forked from shadowmoose/GHA-LoC-Badge
 # LoC-Badge ![Generated Button](https://raw.githubusercontent.com/shadowmoose/GHA-LoC-Badge/image-data/badge.svg)
 Count project Lines of Code & generate a badge for display.
 
@@ -6,7 +7,7 @@ In a Github Action, download your project and run this action:
 
 ```yaml
       - name: Make Code Badge
-        uses: shadowmoose/GHA-LoC-Badge@1.0.0
+        uses: DeathSy/GHA-LoC-Badge@1.0.0
         id: badge
         with:
           debug: true
