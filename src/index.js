@@ -25,7 +25,7 @@ if (debug) core.info('Debugging enabled.');
 async function countLines(fullPath) {
 	return new Promise((res, rej) => {
 		let count = 1;
-		require('fs').createReadStream(fullPath)
+		require('fs').createReadStream(path.join(dir, fullPath))
 			.on('data', function(chunk) {
 				let index = -1;
 				while((index = chunk.indexOf(10, index + 1)) > -1) count++

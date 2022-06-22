@@ -14,9 +14,10 @@ jobs:
         id: badge
         with:
           debug: true
-          directory: ./
+          directory: "./src"
           badge: ./output/badge.svg
           ignore: 'node_modules/|README'
+          patterns: '*.js'
 
       - name: Print the output
         run: |
