@@ -13,7 +13,7 @@ In a Github Action, download your project and run this action:
           debug: true
           directory: ./
           badge: ./output/badge.svg
-          patterns: '*.js'  # Patterns in the format of a '.gitignore' file, separated by pipes.
+          patterns: '**/*.js'  # Patterns in the format of a '.gitignore' file, separated by pipes.
           ignore: 'node_modules'
 ```
 
